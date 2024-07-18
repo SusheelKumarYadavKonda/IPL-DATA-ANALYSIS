@@ -1,13 +1,17 @@
-# Ignore virtual environment
-myenv/
-
-# Ignore environment variables
-.env/
-
-# Ignore logs
-.logs/
-
-# Ignore Python cache files
-dags/__pycache__/
-
+# Docker-specific
+*.log
+*.pid
+*.seed
+*.pid.lock
+build/
+docker-compose.override.yml
 logs/
+*.bak
+
+# Airflow-specific
+airflow-setup/dags/__pycache__/
+airflow-setup/logs/*
+airflow-setup/config/
+airflow-setup/plugins/
+
+venv/
