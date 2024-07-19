@@ -12,6 +12,6 @@ logs/
 airflow-setup/dags/__pycache__/
 airflow-setup/logs/*
 airflow-setup/config/
-airflow-setup/plugins/
+airflow-setup/plugins/ 
 
 venv/

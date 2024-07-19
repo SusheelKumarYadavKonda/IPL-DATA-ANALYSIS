@@ -1,6 +1,9 @@
-apache-airflow>=2.9.0
+apache-airflow==2.9.2
 apache-airflow-providers-http
-
+psycopg2-binary
+apache-airflow-providers-celery
+apache-airflow-providers-redis
+apache-airflow-providers-postgres
 apache-airflow-providers-common-sql>=1.7.2
 
 requests
